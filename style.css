@@ -100,16 +100,9 @@
             font-size: 1.25rem;
             background: none;
             box-shadow: none;
-            display: none !important;
+            display: none;
             margin-left: 0;
             order: 3;
-        }
-        
-        @media (max-width: 991px) {
-            .navbar-toggler {
-                margin-left: auto;
-                order: 3;
-            }
         }
         .navbar-toggler:focus {
             box-shadow: none;
@@ -121,6 +114,8 @@
         @media (max-width: 991px) {
             .navbar-toggler {
                 display: inline-flex !important;
+                margin-left: auto;
+                order: 3;
             }
         }
         /* Navbar expand breakpoint - collapse menu below 768px */
