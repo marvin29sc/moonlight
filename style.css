@@ -43,6 +43,12 @@
             align-items: center;
             gap: 0.5rem;
         }
+        @media (max-width: 991px) {
+            .navbar-header .container-fluid {
+                justify-content: space-between;
+                flex-wrap: wrap;
+            }
+        }
         .navbar {
             background: var(--neon-yellow) !important;
             display: flex;
@@ -101,7 +107,8 @@
         
         @media (max-width: 991px) {
             .navbar-toggler {
-                margin-left: 0;
+                margin-left: auto;
+                order: 3;
             }
         }
         .navbar-toggler:focus {
